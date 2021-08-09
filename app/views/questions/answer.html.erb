@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="ask">
+    <p class="bold"><%= params[:ask] %></p>
+    <p class="author">-- You</p>
+  </div>
+  <div class="answer">
+    <p class="bold"><%= @answer %></p>
+    <p class="author">-- Your coach</p>
+  </div>
+  <%= link_to "Ask a new question", ask_path %>
+</div>
